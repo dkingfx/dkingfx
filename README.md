@@ -1,3 +1,9 @@
+<!-- NOW: update this when focus shifts, takes 10 seconds -->
+**Now:** NBA slate support + agent skill v2 for ProxyDFS &nbsp;·&nbsp; May 2026
+<!-- END NOW -->
+
+---
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
@@ -14,46 +20,45 @@
 
 ---
 
-## 🏈 ProxyDFS · [proxydfs.vercel.app](https://proxydfs.vercel.app)
+## 🏈 ProxyDFS &nbsp;·&nbsp; [proxydfs.vercel.app](https://proxydfs.vercel.app)
 
-DraftKings lineup optimizer — built so AI agents are first-class consumers alongside humans.
+DraftKings lineup optimizer built so AI agents are first-class consumers alongside humans.
 
-The optimizer runs Monte Carlo simulation + ILP (integer linear programming) under the hood to generate GPP and cash lineups against DraftKings salary constraints. The full loop — pull slate → optimize → export DraftKings CSV — is exposed as a REST API with Claude/GPT skill files, so an agent can run the entire workflow with no human in the loop.
+Monte Carlo simulation + ILP (integer linear programming) against DraftKings salary constraints. The full loop — pull slate → optimize → export CSV — is exposed as a REST API with Claude/GPT skill files. An agent can run the entire workflow with no human in the loop.
 
-**Stack**: Next.js 15 · TypeScript · Convex · Clerk · Stripe · Vercel  
-**Tiers**: Free · Pro · Agent API (paid)
+**Stack:** Next.js 15 · TypeScript · Convex · Clerk · Stripe · Vercel &nbsp;·&nbsp; Free / Pro / Agent API tiers
 
-- [proxydfs-agent-examples](https://github.com/dkingfx/proxydfs-agent-examples) — skill files + curl examples for the Agent API
+→ [proxydfs-agent-examples](https://github.com/dkingfx/proxydfs-agent-examples) — skill files + curl examples
 
 ---
 
-## 📰 Artificial Dispatch · [artificialdispatch.vercel.app](https://artificialdispatch.vercel.app)
+## 📰 Artificial Dispatch &nbsp;·&nbsp; [artificialdispatch.vercel.app](https://artificialdispatch.vercel.app)
 
 AI-agent publishing pipeline for a Wired/Engadget-style tech site.
 
-Inbound via Telegram Bot API. A multi-model agent stack handles research, drafting, and editing — different models tuned for different stages. Images generated locally with FLUX.1 on Apple Silicon (MPS), artifacts streamed to Cloudflare R2 for serving. Nothing auto-publishes — every article goes through a human review queue before going live.
+Inbound via Telegram Bot API. Multi-model agent stack — different models tuned for research, drafting, and editing. Images generated locally with FLUX.1 on Apple Silicon (MPS), streamed to Cloudflare R2. Nothing auto-publishes — every article goes through a human review queue.
 
-**Stack**: Next.js · TypeScript · PostgreSQL · Cloudflare R2 · Telegram Bot API · FLUX.1 (MPS) · Vercel
+**Stack:** Next.js · TypeScript · PostgreSQL · Cloudflare R2 · Telegram Bot API · FLUX.1 (MPS) · Vercel
 
-- [artificialdispatch-overview](https://github.com/dkingfx/artificialdispatch-overview) — architecture diagram + stack notes
+→ [artificialdispatch-overview](https://github.com/dkingfx/artificialdispatch-overview) — architecture + Mermaid diagram
 
 ---
 
 ## 🏢 EntraHub
 
-Enterprise Microsoft 365 lifecycle SaaS. Handles provisioning, deprovisioning, and license management across an org via Microsoft Graph.
+Enterprise Microsoft 365 lifecycle SaaS. Provisioning, deprovisioning, and license management via Microsoft Graph.
 
-Durable execution via Temporal.io — long-running workflows (onboarding, offboarding) survive restarts and failures without losing state. End-to-end type safety with tRPC. Stripe for billing.
+Durable execution via Temporal.io — onboarding/offboarding workflows survive restarts and failures without losing state. End-to-end type safety with tRPC.
 
-**Stack**: Next.js 15 · TypeScript · Temporal.io · tRPC · Prisma · PostgreSQL · Microsoft Graph · Stripe · Clerk
+**Stack:** Next.js 15 · TypeScript · Temporal.io · tRPC · Prisma · PostgreSQL · Microsoft Graph · Stripe · Clerk
 
 ---
 
 ## 🤖 Nimtara
 
-AI agent control plane. Organizes agents into departments and reporting lines with a live org chart. Auto-discovery setup wizard walks through connecting and configuring new agents.
+AI agent control plane. Org-chart hierarchy, department structure, auto-discovery setup wizard.
 
-**Stack**: Next.js · TypeScript · Convex · Clerk
+**Stack:** Next.js · TypeScript · Convex · Clerk
 
 ---
 
@@ -63,13 +68,21 @@ AI agent control plane. Organizes agents into departments and reporting lines wi
 
 ## Stack
 
-**Languages** · TypeScript · Go · Python · SQL · Bash · PowerShell · Swift  
-**Frameworks** · Next.js 15 · React · tRPC · Temporal.io · Prisma · Drizzle · Convex · Clerk · Tailwind · Radix UI  
-**Cloud / Edge** · AWS · Azure · Cloudflare · Vercel  
-**Data** · PostgreSQL · Cloudflare R2 · Wasabi S3  
-**Infra** · VMware · Proxmox · Docker · UniFi  
-**AI** · Cursor · Claude · GPT · OpenRouter · OpenClaw · Hermes · Ollama · FLUX.1
+**Languages** &nbsp;·&nbsp; TypeScript · Go · Python · SQL · Bash · PowerShell · Swift  
+**Frameworks** &nbsp;·&nbsp; Next.js 15 · React · tRPC · Temporal.io · Prisma · Drizzle · Convex · Clerk · Tailwind · Radix UI  
+**Cloud / Edge** &nbsp;·&nbsp; AWS · Azure · Cloudflare · Vercel  
+**Data** &nbsp;·&nbsp; PostgreSQL · Cloudflare R2 · Wasabi S3  
+**Infra** &nbsp;·&nbsp; VMware · Proxmox · Docker · UniFi  
+**AI** &nbsp;·&nbsp; Cursor · Claude · GPT · OpenRouter · OpenClaw · Hermes · Ollama · FLUX.1
 
 ---
 
-[LinkedIn](https://linkedin.com/in/dkingfx) · [X @proxydfs](https://twitter.com/proxydfs)
+[LinkedIn](https://linkedin.com/in/dkingfx) &nbsp;·&nbsp; [X @proxydfs](https://twitter.com/proxydfs)
+
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dkingfx/dkingfx/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dkingfx/dkingfx/output/snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/dkingfx/dkingfx/output/snake.svg" />
+</picture>
