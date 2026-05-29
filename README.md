@@ -20,6 +20,12 @@
 
 ---
 
+## Start Here
+
+- 🏈 **[ProxyDFS](https://proxydfs.vercel.app)** — DraftKings lineup optimizer for humans and AI agents. Public REST API + Claude/GPT skill files. Stripe-billed tiers.
+- 📰 **[Artificial Dispatch](https://artificialdispatch.vercel.app)** — AI-agent publishing pipeline. Telegram → research → draft → image gen → human review → publish.
+- 🌅 **[Afterglow Infinite](https://afterglow-experience.vercel.app)** — Immersive web companion for an EDM album.
+
 ## 🏈 ProxyDFS &nbsp;·&nbsp; [proxydfs.vercel.app](https://proxydfs.vercel.app)
 
 DraftKings lineup optimizer built so AI agents are first-class consumers alongside humans.
@@ -67,9 +73,6 @@ Control plane for the agentic editorial team behind Artificial Dispatch. Manages
 Immersive web companion for an EDM album. A chapter-based journey — from neon ignition through the full album arc to the afterglow. Designed as a visual and interactive counterpart to the music, not a static promo page.
 
 **Stack:** Next.js · TypeScript · Tailwind · Framer Motion · Vercel
-
----
-
 
 ---
 
