@@ -56,9 +56,9 @@ Durable execution via Temporal.io — onboarding/offboarding workflows survive r
 
 ## 🤖 Nimtara
 
-AI agent control plane. Org-chart hierarchy, department structure, auto-discovery setup wizard.
+Control plane for the agentic editorial team behind Artificial Dispatch. Manages agents in an org-chart hierarchy with departments, reporting lines, and an auto-discovery setup wizard. Primary runtime is OpenClaw — working on compatibility with Hermes Agent and other harnesses.
 
-**Stack:** Next.js · TypeScript · Convex · Clerk
+**Stack:** Next.js · TypeScript · Convex · Clerk · OpenClaw
 
 ---
 
