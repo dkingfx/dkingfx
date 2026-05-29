@@ -1,9 +1,3 @@
-# Hi, I'm Daniel 👋
-
-**Platform & AI Engineer** · Fort Lauderdale, FL
-
-Platform engineer running production infrastructure across 11 international sites by day. Building agent-native products solo by night.
-
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
@@ -20,69 +14,62 @@ Platform engineer running production infrastructure across 11 international site
 
 ---
 
-## Start Here
+## 🏈 ProxyDFS · [proxydfs.vercel.app](https://proxydfs.vercel.app)
 
-- 🏈 **[ProxyDFS](https://proxydfs.vercel.app)** — DraftKings lineup optimizer for humans and AI agents. Public REST API + Claude/GPT skill files. Free tier + paid tiers on Stripe.
-- 📰 **[Artificial Dispatch](https://artificialdispatch.vercel.app)** — AI-agent publishing pipeline. Telegram → research → draft → image gen (FLUX.1 on Mac mini) → human review → publish.
-- 🎵 **[Afterglow Experience](https://afterglow-experience.vercel.app)** — Interactive web experience for an EDM album. Next.js + Framer Motion.
+DraftKings lineup optimizer — built so AI agents are first-class consumers alongside humans.
 
----
+The optimizer runs Monte Carlo simulation + ILP (integer linear programming) under the hood to generate GPP and cash lineups against DraftKings salary constraints. The full loop — pull slate → optimize → export DraftKings CSV — is exposed as a REST API with Claude/GPT skill files, so an agent can run the entire workflow with no human in the loop.
 
-## Current Projects
+**Stack**: Next.js 15 · TypeScript · Convex · Clerk · Stripe · Vercel  
+**Tiers**: Free · Pro · Agent API (paid)
 
-### ProxyDFS
-The full optimize-and-export loop — pull a slate, run Monte Carlo + ILP optimization, export a DraftKings-ready CSV — is available to AI agents with no human in the loop. An OpenRouter-style idea applied to DFS: the agent is the first-class consumer.
-
-- [proxydfs-agent-examples](https://github.com/dkingfx/proxydfs-agent-examples) — Public skill files + curl examples for the Agent API
-
-### Artificial Dispatch
-Multi-model, multi-agent publishing stack. Different agents handle research, drafting, and editing. FLUX.1 runs locally on Apple Silicon (MPS); artifacts stream to Cloudflare R2. Nothing auto-publishes — human review is the gate.
-
-- [artificialdispatch-overview](https://github.com/dkingfx/artificialdispatch-overview) — Architecture, Mermaid diagram, stack notes
-
-### EntraHub
-Enterprise Microsoft 365 lifecycle SaaS. Next.js 15 · Temporal.io · tRPC · Prisma · Stripe · Microsoft Graph. Full provisioning/deprovisioning workflows with durable execution.
-
-### Nimtara
-AI agent control plane with org-chart hierarchy, department structure, and auto-discovery setup wizard.
-
-> Source for all four is private. Happy to walk through architecture, tradeoffs, and code in conversation.
+- [proxydfs-agent-examples](https://github.com/dkingfx/proxydfs-agent-examples) — skill files + curl examples for the Agent API
 
 ---
 
-## Day Job
+## 📰 Artificial Dispatch · [artificialdispatch.vercel.app](https://artificialdispatch.vercel.app)
 
-**Systems Engineer → Chauvet Lighting** *(promoted from Systems Administrator in under 2 years)*
+AI-agent publishing pipeline for a Wired/Engadget-style tech site.
 
-Production infrastructure across 11 international sites (US + Europe). Multi-cloud AWS + Azure, full colocation rack. Led migration of 44 servers from on-prem VMware to AWS as part of an 80-server cloud restructure. Own TLS lifecycle, identity-aware site-to-site VPN, backup/DR, and internal platform tooling.
+Inbound via Telegram Bot API. A multi-model agent stack handles research, drafting, and editing — different models tuned for different stages. Images generated locally with FLUX.1 on Apple Silicon (MPS), artifacts streamed to Cloudflare R2 for serving. Nothing auto-publishes — every article goes through a human review queue before going live.
+
+**Stack**: Next.js · TypeScript · PostgreSQL · Cloudflare R2 · Telegram Bot API · FLUX.1 (MPS) · Vercel
+
+- [artificialdispatch-overview](https://github.com/dkingfx/artificialdispatch-overview) — architecture diagram + stack notes
+
+---
+
+## 🏢 EntraHub
+
+Enterprise Microsoft 365 lifecycle SaaS. Handles provisioning, deprovisioning, and license management across an org via Microsoft Graph.
+
+Durable execution via Temporal.io — long-running workflows (onboarding, offboarding) survive restarts and failures without losing state. End-to-end type safety with tRPC. Stripe for billing.
+
+**Stack**: Next.js 15 · TypeScript · Temporal.io · tRPC · Prisma · PostgreSQL · Microsoft Graph · Stripe · Clerk
+
+---
+
+## 🤖 Nimtara
+
+AI agent control plane. Organizes agents into departments and reporting lines with a live org chart. Auto-discovery setup wizard walks through connecting and configuring new agents.
+
+**Stack**: Next.js · TypeScript · Convex · Clerk
+
+---
+
+> All four are closed-source. Happy to walk through architecture, tradeoffs, and code in conversation.
 
 ---
 
 ## Stack
 
-**Languages** · TypeScript · Go · Python · SQL · Bash · PowerShell · Swift
-
-**Frameworks** · Next.js 15 · React · tRPC · Temporal.io · Prisma · Drizzle · Convex · Clerk · Tailwind · Radix UI
-
-**Cloud / Edge** · AWS (EC2, Lambda, CloudWatch, S3, VPC, IAM, Route 53) · Azure (Entra ID, Automation) · Cloudflare (DNS, R2) · Vercel
-
-**Data / Comms** · PostgreSQL · SQL Server · Cloudflare R2 · Wasabi S3 · Microsoft Graph · Pusher · Resend · Loops · Stripe
-
-**Infra** · VMware ESXi / vCenter · Proxmox VE · Docker · UniFi UCG-Fiber · full colocation rack · Dell / HP servers
-
-**AI Tooling** · Cursor · Claude · GPT · OpenRouter · OpenClaw · Hermes · Ollama · Hugging Face · FLUX.1 (MPS)
+**Languages** · TypeScript · Go · Python · SQL · Bash · PowerShell · Swift  
+**Frameworks** · Next.js 15 · React · tRPC · Temporal.io · Prisma · Drizzle · Convex · Clerk · Tailwind · Radix UI  
+**Cloud / Edge** · AWS · Azure · Cloudflare · Vercel  
+**Data** · PostgreSQL · Cloudflare R2 · Wasabi S3  
+**Infra** · VMware · Proxmox · Docker · UniFi  
+**AI** · Cursor · Claude · GPT · OpenRouter · OpenClaw · Hermes · Ollama · FLUX.1
 
 ---
 
-## Certifications
-
-- **Certified in Cybersecurity (CC)** — ISC2 · 2024–2027
-- **AWS Certified Cloud Practitioner** — 2023–2026
-- **Cisco CCNA** — 2015–2018
-- *In progress* — Azure Fundamentals · AWS Solutions Architect Associate
-
----
-
-## Connect
-
-[LinkedIn](https://linkedin.com/in/dkingfx) · [X @proxydfs](https://twitter.com/proxydfs) · [dkingfx@icloud.com](mailto:dkingfx@icloud.com)
+[LinkedIn](https://linkedin.com/in/dkingfx) · [X @proxydfs](https://twitter.com/proxydfs)
