@@ -62,6 +62,14 @@ AI agent control plane. Org-chart hierarchy, department structure, auto-discover
 
 ---
 
+## 🌅 Afterglow Infinite &nbsp;·&nbsp; [afterglow-experience.vercel.app](https://afterglow-experience.vercel.app)
+
+Immersive web companion for an EDM album. A chapter-based journey — from neon ignition through the full album arc to the afterglow. Designed as a visual and interactive counterpart to the music, not a static promo page.
+
+**Stack:** Next.js · TypeScript · Tailwind · Framer Motion · Vercel
+
+---
+
 
 ---
 
@@ -90,7 +98,7 @@ Local FLUX.1-schnell and FLUX.1-dev image generation pipeline on Apple Silicon. 
 
 ---
 
-> All four are closed-source. Happy to walk through architecture, tradeoffs, and code in conversation.
+> Source for the above is private. Happy to walk through architecture, tradeoffs, and code in conversation.
 
 ---
 
