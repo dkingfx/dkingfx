@@ -66,23 +66,5 @@ AI agent control plane. Org-chart hierarchy, department structure, auto-discover
 
 ---
 
-## Stack
-
-**Languages** &nbsp;·&nbsp; TypeScript · Go · Python · SQL · Bash · PowerShell · Swift  
-**Frameworks** &nbsp;·&nbsp; Next.js 15 · React · tRPC · Temporal.io · Prisma · Drizzle · Convex · Clerk · Tailwind · Radix UI  
-**Cloud / Edge** &nbsp;·&nbsp; AWS · Azure · Cloudflare · Vercel  
-**Data** &nbsp;·&nbsp; PostgreSQL · Cloudflare R2 · Wasabi S3  
-**Infra** &nbsp;·&nbsp; VMware · Proxmox · Docker · UniFi  
-**AI** &nbsp;·&nbsp; Cursor · Claude · GPT · OpenRouter · OpenClaw · Hermes · Ollama · FLUX.1
-
----
-
 [LinkedIn](https://linkedin.com/in/dkingfx) &nbsp;·&nbsp; [X @proxydfs](https://twitter.com/proxydfs)
 
----
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dkingfx/dkingfx/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dkingfx/dkingfx/output/snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/dkingfx/dkingfx/output/snake.svg" />
-</picture>
