@@ -1,8 +1,8 @@
-<!-- NOW: update this when focus shifts, takes 10 seconds -->
-**Now:** NBA slate support + agent skill v2 for ProxyDFS &nbsp;·&nbsp; May 2026
-<!-- END NOW -->
+# Hi, I'm Daniel 👋
 
----
+📍 Fort Lauderdale &nbsp;|&nbsp; 🤖 Agent-native builder &nbsp;|&nbsp; ☁️ Platform engineer
+
+**Now:** NBA slate support + agent skill v2 for ProxyDFS &nbsp;·&nbsp; May 2026
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
