@@ -26,6 +26,14 @@
 - 📰 **[Artificial Dispatch](https://artificialdispatch.vercel.app)** — AI-agent publishing pipeline. Telegram → research → draft → image gen → human review → publish.
 - 🌅 **[Afterglow Infinite](https://afterglow-experience.vercel.app)** — Immersive web companion for an EDM album.
 
+<br>
+
+---
+
+## Projects
+
+---
+
 ## 🏈 ProxyDFS &nbsp;·&nbsp; [proxydfs.vercel.app](https://proxydfs.vercel.app)
 
 DraftKings lineup optimizer built so AI agents are first-class consumers alongside humans.
