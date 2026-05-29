@@ -62,6 +62,34 @@ AI agent control plane. Org-chart hierarchy, department structure, auto-discover
 
 ---
 
+
+---
+
+## 🥁 PEDRUM
+
+MIDI drum humanizer VST/AU plugin — built with zero prior C++ or audio DSP knowledge to test how far AI-assisted development could reach outside a familiar stack. Genre presets, per-voice TIME/VEL/SWING/FEEL controls, loads in Logic Pro, Ableton, any DAW.
+
+**Stack:** C++ · JUCE · MIDI
+
+---
+
+## ⚡ Flux Generator
+
+Local FLUX.1-schnell and FLUX.1-dev image generation pipeline on Apple Silicon. Runs entirely offline via MPS acceleration — no API keys needed. Powers the image pipeline in Artificial Dispatch.
+
+**Stack:** Python · Hugging Face Diffusers · MPS (Apple Silicon) · Gradio
+
+---
+
+## 🔨 Client Work
+
+- **Louis V Handyman** — business site for a local handyman service
+- **Swim For It FTL** — site for a Fort Lauderdale swim school
+
+**Stack:** Astro · Tailwind
+
+---
+
 > All four are closed-source. Happy to walk through architecture, tradeoffs, and code in conversation.
 
 ---
