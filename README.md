@@ -1,6 +1,6 @@
 # Hi, I'm Daniel 👋
 
-📍 Fort Lauderdale &nbsp;|&nbsp; 🤖 Agent-native builder &nbsp;|&nbsp; ☁️ Platform engineer
+🤖 Agent-native builder &nbsp;·&nbsp; ⚡ Ships in production &nbsp;·&nbsp; 🛠️ Builds solo
 
 **Now:** NBA slate support + agent skill v2 for ProxyDFS &nbsp;·&nbsp; May 2026
 
