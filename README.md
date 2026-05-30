@@ -22,8 +22,8 @@
 
 ## Start Here
 
-- 🏈 **[ProxyDFS](https://proxydfs.vercel.app)** — DraftKings lineup optimizer for humans and AI agents. Public REST API + Claude/GPT skill files. Stripe-billed tiers.
-- 📰 **[Artificial Dispatch](https://artificialdispatch.vercel.app)** — AI-agent publishing pipeline. Telegram → research → draft → image gen → human review → publish.
+- 🏈 **[ProxyDFS](https://proxydfs.vercel.app)** — DraftKings lineup optimizer for humans and AI agents. Public REST API with Claude/GPT skill files. Stripe-billed tiers.
+- 📰 **[Artificial Dispatch](https://artificialdispatch.vercel.app)** — AI-agent publishing pipeline. Telegram to research to draft to image gen to human review to publish.
 - 🌅 **[Afterglow Infinite](https://afterglow-experience.vercel.app)** — Immersive web companion for an EDM album.
 
 <br>
@@ -36,9 +36,9 @@
 
 ## 🏈 ProxyDFS &nbsp;·&nbsp; [proxydfs.vercel.app](https://proxydfs.vercel.app)
 
-DraftKings lineup optimizer built so AI agents are first-class consumers alongside humans.
+DraftKings lineup optimizer where AI agents are first-class consumers alongside humans.
 
-Monte Carlo simulation + ILP (integer linear programming) against DraftKings salary constraints. The full loop — pull slate → optimize → export CSV — is exposed as a REST API with Claude/GPT skill files. An agent can run the entire workflow with no human in the loop.
+Uses Monte Carlo simulation and ILP against DraftKings salary constraints. The full loop — pull slate, optimize, export CSV — is a REST API with Claude/GPT skill files. Agents can run the entire workflow with no human involved.
 
 **Stack:** Next.js 15 · TypeScript · Convex · Clerk · Stripe · Vercel &nbsp;·&nbsp; Free / Pro / Agent API tiers
 
@@ -50,7 +50,7 @@ Monte Carlo simulation + ILP (integer linear programming) against DraftKings sal
 
 AI-agent publishing pipeline for a Wired/Engadget-style tech site.
 
-Inbound via Telegram Bot API. Multi-model agent stack — different models tuned for research, drafting, and editing. Images generated locally with FLUX.1 on Apple Silicon (MPS), streamed to Cloudflare R2. Nothing auto-publishes — every article goes through a human review queue.
+Inbound via Telegram Bot API. A multi-model agent stack handles research, drafting, and editing with different models tuned for each stage. Images are generated locally with FLUX.1 on Apple Silicon and streamed to Cloudflare R2. Nothing auto-publishes. Every article goes through a human review queue.
 
 **Stack:** Next.js · TypeScript · PostgreSQL · Cloudflare R2 · Telegram Bot API · FLUX.1 (MPS) · Vercel
 
@@ -60,9 +60,9 @@ Inbound via Telegram Bot API. Multi-model agent stack — different models tuned
 
 ## 🏢 EntraHub
 
-Enterprise Microsoft 365 lifecycle SaaS. Provisioning, deprovisioning, and license management via Microsoft Graph.
+Enterprise Microsoft 365 lifecycle SaaS for provisioning, deprovisioning, and license management via Microsoft Graph.
 
-Durable execution via Temporal.io — onboarding/offboarding workflows survive restarts and failures without losing state. End-to-end type safety with tRPC.
+Uses Temporal.io for durable execution so onboarding and offboarding workflows survive restarts without losing state. End-to-end type safety with tRPC.
 
 **Stack:** Next.js 15 · TypeScript · Temporal.io · tRPC · Prisma · PostgreSQL · Microsoft Graph · Stripe · Clerk
 
@@ -70,7 +70,7 @@ Durable execution via Temporal.io — onboarding/offboarding workflows survive r
 
 ## 🤖 Nimtara
 
-Control plane for the agentic editorial team behind Artificial Dispatch. Manages agents in an org-chart hierarchy with departments, reporting lines, and an auto-discovery setup wizard. Primary runtime is OpenClaw — working on compatibility with Hermes Agent and other harnesses.
+Control plane for the agentic editorial team behind Artificial Dispatch. Manages agents in an org-chart hierarchy with departments, reporting lines, and an auto-discovery setup wizard. Primary runtime is OpenClaw. Working on compatibility with Hermes Agent and other harnesses.
 
 **Stack:** Next.js · TypeScript · Convex · Clerk · OpenClaw
 
@@ -78,7 +78,7 @@ Control plane for the agentic editorial team behind Artificial Dispatch. Manages
 
 ## 🌅 Afterglow Infinite &nbsp;·&nbsp; [afterglow-experience.vercel.app](https://afterglow-experience.vercel.app)
 
-Immersive web companion for an EDM album. A chapter-based journey — from neon ignition through the full album arc to the afterglow. Designed as a visual and interactive counterpart to the music, not a static promo page.
+Immersive web companion for an EDM album. A chapter-based journey from neon ignition through the full album arc to the afterglow. Built as a visual and interactive counterpart to the music, not a static promo page.
 
 **Stack:** Next.js · TypeScript · Tailwind · Framer Motion · Vercel
 
@@ -86,7 +86,7 @@ Immersive web companion for an EDM album. A chapter-based journey — from neon 
 
 ## 🥁 PEDRUM
 
-MIDI drum humanizer VST/AU plugin — built with zero prior C++ or audio DSP knowledge to test how far AI-assisted development could reach outside a familiar stack. Genre presets, per-voice TIME/VEL/SWING/FEEL controls, loads in Logic Pro, Ableton, any DAW.
+MIDI drum humanizer VST/AU plugin built with zero prior C++ or audio DSP knowledge. A test to see how far AI-assisted development could reach outside a familiar stack. Has genre presets and per-voice TIME/VEL/SWING/FEEL controls. Loads in Logic Pro, Ableton, and any DAW.
 
 **Stack:** C++ · JUCE · MIDI
 
@@ -94,7 +94,7 @@ MIDI drum humanizer VST/AU plugin — built with zero prior C++ or audio DSP kno
 
 ## ⚡ Flux Generator
 
-Local FLUX.1-schnell and FLUX.1-dev image generation pipeline on Apple Silicon. Runs entirely offline via MPS acceleration — no API keys needed. Powers the image pipeline in Artificial Dispatch.
+Local FLUX.1-schnell and FLUX.1-dev image generation pipeline on Apple Silicon. Runs fully offline via MPS acceleration with no API keys needed. Powers the image pipeline in Artificial Dispatch.
 
 **Stack:** Python · Hugging Face Diffusers · MPS (Apple Silicon) · Gradio
 
@@ -114,4 +114,3 @@ Local FLUX.1-schnell and FLUX.1-dev image generation pipeline on Apple Silicon. 
 ---
 
 [LinkedIn](https://linkedin.com/in/dkingfx) &nbsp;·&nbsp; [X @proxydfs](https://twitter.com/proxydfs)
-
