@@ -2,7 +2,6 @@
 
 🤖 Agent-native builder &nbsp;·&nbsp; ⚡ Ships in production &nbsp;·&nbsp; 🛠️ Builds solo
 
-**Now:** NBA slate support + agent skill v2 for ProxyDFS &nbsp;·&nbsp; May 2026
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
