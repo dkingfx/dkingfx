@@ -87,7 +87,7 @@ Local FLUX.1-schnell and FLUX.1-dev image generation pipeline on Apple Silicon. 
 
 ## 🔨 Client Work
 
-- **Louis V Handyman** — business site for a local handyman service
+- **[Louis V Handyman](https://www.louisvhandyman.com)** — business site for a local handyman service
 - **Swim For It FTL** — site for a Fort Lauderdale swim school
 
 **Stack:** Astro · Tailwind
