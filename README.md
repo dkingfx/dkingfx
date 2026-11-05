@@ -43,6 +43,16 @@ Inbound via Telegram Bot API. A multi-model agent stack handles research, drafti
 
 ---
 
+## 🏠 Fusembly &nbsp;·&nbsp; [app.fusembly.com](https://app.fusembly.com)
+
+Report builder for home inspection companies. Inspectors bring the completed 4-Point or Wind Mitigation form and their field photos, and Fusembly assembles one finished, branded PDF report with photo sections, appendices and an optional cover page.
+
+Built for a paying first customer. Owners get a console with team invites, report statuses, review requests and activity. PDFs are validated and rendered server-side with headless Chromium, uploads are reserved and size-limited, and shared report links are read-only.
+
+**Stack:** Next.js · TypeScript · Clerk · Vercel Blob · Cloudflare R2 · pdf-lib · PDF.js · Chromium · Vercel
+
+---
+
 ## 🏢 EntraHub
 
 Enterprise Microsoft 365 lifecycle SaaS for provisioning, deprovisioning, and license management via Microsoft Graph.
