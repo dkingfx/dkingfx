@@ -35,7 +35,7 @@ Uses Monte Carlo simulation and ILP against DraftKings salary constraints. The f
 
 AI-agent publishing pipeline for a Wired/Engadget-style tech site.
 
-Inbound via Telegram Bot API. A multi-model agent stack handles research, drafting, and editing with different models tuned for each stage. Images are generated locally with FLUX.1 on Apple Silicon and streamed to Cloudflare R2. Nothing auto-publishes. Every article goes through a human review queue.
+Inbound via Telegram Bot API. A multi-model agent stack handles research, drafting, and editing with different models tuned for each stage. Images come from my own Flux Generator (below), running FLUX.1 locally on Apple Silicon, and are streamed to Cloudflare R2. Nothing auto-publishes. Every article goes through a human review queue.
 
 **Stack:** Next.js · TypeScript · PostgreSQL · Cloudflare R2 · Telegram Bot API · FLUX.1 (MPS) · Vercel
 
