@@ -47,7 +47,7 @@ Inbound via Telegram Bot API. A multi-model agent stack handles research, drafti
 
 Report builder for home inspection companies. Inspectors bring the completed 4-Point or Wind Mitigation form and their field photos, and Fusembly assembles one finished, branded PDF report with photo sections, appendices and an optional cover page.
 
-Built for a paying first customer. Owners get a console with team invites, report statuses, review requests and activity. PDFs are validated and rendered server-side with headless Chromium, uploads are reserved and size-limited, and shared report links are read-only.
+Owners get a console with team invites, report statuses, review requests and activity. Reports are merged and rendered server-side with pdf-lib and headless Chromium.
 
 **Stack:** Next.js · TypeScript · Clerk · Vercel Blob · Cloudflare R2 · pdf-lib · PDF.js · Chromium · Vercel
 
