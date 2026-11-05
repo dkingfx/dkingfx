@@ -89,7 +89,7 @@ MIDI drum humanizer VST/AU plugin built with zero prior C++ or audio DSP knowled
 
 ## ⚡ Flux Generator
 
-Local FLUX.1-schnell and FLUX.1-dev image generation pipeline on Apple Silicon. Runs fully offline via MPS acceleration with no API keys needed. Powers the image pipeline in Artificial Dispatch.
+Local FLUX.1-schnell and FLUX.1-dev image generation pipeline on Apple Silicon. Runs fully offline via MPS acceleration with no API keys needed. Powers the image pipeline in Artificial Dispatch and, most recently, the scene art for my YouTube content factory, a set of faceless sleep and ambience channels.
 
 **Stack:** Python · Hugging Face Diffusers · MPS (Apple Silicon) · Gradio
 
